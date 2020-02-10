@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding: 0;
+    border: none;
+
+} 
+.gobierno{
+    color:WHITE;
+  margin-left: px;
+    transition: all 0.75s;
+ 
+  
+} 
+.navbarFalso{
+    padding:60px;
+    background-color: rgb(62, 126, 247);
+    font-size: 25px;
+}
+.escudo img{
+    
+width: 100px;
+height: 100px;
+    margin-top: 7px;
+    margin-left: 30px;
+    transition: all 1.40s;
+    background: transparent;
+} 
+.navbarFalso-notificacion{
+    background-color: rgb(62, 126, 247);
+    padding: 18px;
+
+}
+
+.escudo:hover{
+    
+    transform: scale(1.08);
+
+} 
+.minerd{
+    background-color: rgb(62, 126, 247);
+   
+   height: 155px;
+   padding-top: 15px;
+   padding-left: 10px;
+}
+.gobierno h4{
+   
+   justify-items: center;
+    padding-top: 5px;
+    font-size: 28px;
+    color:red; 
+
+}
+.gobierno b{
+    color:rgb(42, 160, 6);
+    font-size: 28px;
+    transition: all 0.75s;
+
+}  
+.gobierno:hover{
+    transform: scale(1.08);
+
+} 
+.raya1{
+    
+    background-color: rgb(201, 199, 199);
+}
+.titulo{
+    background-color: rgb(43, 212, 37);
+    color:white;
+    
+
+    padding:25px;
+}
+.fondo-calificacion{
+    background-color: rgb(0, 50, 92);
+}
+#alert1{
+    width: 300px;
+    padding:5px;
+  font-size: 15px;
+    color: rgb(255, 36, 20);
+    display:none;
+}
+
+
+
+
+
+.texto b{
+    color: rgb(168, 4, 4);
+   
+ }
+ 
+ .minerd:hover{
+     
+     transform: scale(1.08);
+ 
+ }
+ .minerd{
+     
+    /* height: 100px;
+     width: 150px;
+ margin-top: -5px;
+ margin-left: -20px;
+  */
+ 
+ transition: all 0.75s;
+   
+ }
+
+ .calificaciones ul li label{
+    text-decoration: none;
+    list-style: none;
+    color: white; 
+ }
+
+
+ .img-calificaciones{
+     width: 240px;
+     height: 250px;
+     margin-top: -20px;
+ }
+ .calificaciones label {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    
+ }
+ 
+ .comentario{
+     border: 2px solid black;
+ }
+ .botones{
+    margin-left: 100px;
+ }
+ .botones2{
+    
+    padding-top: 20px;
+}
+ .limpiar:hover{
+     background-color: rgb(255, 10, 10);
+ }
+ .text{
+     border: 3px solid black;
+ }
+
+ .Comentar{
+     margin-left: 50px;
+ }
+.fotter{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    color:white
+}
+ h5{
+    color:red;
+    
+   
+}
+.botones2> label{
+    cursor:pointer;
+    background-color: green;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+}
+#codigo-acceso{
+    display: none;
+}
+.botones2> label:hover{
+    
+    background-color: rgb(20, 255, 20);
+    color: black;
+   
+}
+@media (max-width:1400px){
+    .text-codigo{
+        
+        
+display: none;
+
+    }
+    @media (max-width:600px){
+        .minerd{
+            background-color: rgb(62, 126, 247);
+           
+        margin-left: 10px;
+        }
+    
+        }
+
+    #codigo-acceso:checked~ .text-codigo{
+       display: block;
+    } 
+} 
+#calif{
+    color:red;
+}
+#alert2{
+    width: 300px;
+    padding:5px;
+  font-size: 18px;
+    color: rgb(255, 1, 1);
+    display:none;
+}
+
+ 

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro de Calificaciones</title>
+    <link rel="stylesheet" href="css/font-awesome.css"> 
+    <link rel="stylesheet" href="css/estilos.css">
+     
+       <link rel="stylesheet" href="css/bootstrap.css" >
+   <link rel="stylesheet" href="css/Registro.css">
+        <link rel="stylesheet" href="css/bootstrap-social.css">  
+       <link rel="stylesheet" href="flexboxgrid.min.css">
+       <!-- <script src="js/validar.js"></script> -->
+       <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <br>
+        <nav class="navbar navbar-default  navbar-inverse">
+          
+         
+            <div class="navbar-header" >
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">En Mantenimiento</a>
+            </div>
+        
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"  >
+              <ul class="nav navbar-nav"  >
+                <li class="active"><a href="#">Becas <span class="sr-only" >(current)</span></a></li>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Escriba algo...">
+                </div>
+                <button type="submit" class="btn btn-default">Buscar</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#contacto">Contacto</a></li>
+               
+              </ul>
+            </div>
+         
+        </nav> 
+        <!-- <div class="row">
+          <div class="col-xs-12">
+            <div class="raya1">
+
+            </div>
+          </div>
+        </div> -->
+        <br>
+        
+        <div class="row">
+          <div class="col-xs-2">
+            <div class="navbarFalso-notificacion">
+            
+              <button class="btn btn-success" type="button">
+                Notificaciones <span class="badge">4</span>
+              </button>
+</div>
+<div class="col-xs-2">
+  <div class="escudo">
+    <img src="img/escudo.jpg" width="100" height="80" alt="">
+  </div>
+
+</div>
+          </div>
+          <div class="col-xs-7">
+            <div class="navbarFalso">
+              <div class="gobierno">
+               <center> Ministerio de Educacion de la Republica Dominicana</center>
+               
+               </div>
+              </div>   
+          </div>
+          <div class="col-xs-3">
+            <div class="minerd">
+              <img src="img/minerd.jpg" alt="" width="370" height="150" class="">  
+              
+
+
+              
+                        
+               </div>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="raya1">
+
+            </div>
+          </div>
+        </div>
+<br>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="titulo">
+              <h3>SISTEMA PARA REGISTRO DE CALIFICACIONES</h3>
+
+            </div>
+          </div>
+        </div>
+
+
+                      <div class="row">
+                        <div class="col-xs-4">
+                         
+                          <div class="botones2">
+                 
+                        <input type="checkbox" name="" id="codigo-acceso">
+                        <label for="codigo-acceso" class="codigo-acceso" id="">Calificaciones Generales</label> <br>
+                        <div class="text-codigo">
+                          <form action="Mostrar" method="POST" class="" onclick="return Validar();">
+                    
+                       
+                        <input type="password" class="form-control"  name="" id="codigo" placeholder="Codigo-Administrativo " value="" onblur="javascript:Validar();">
+                    
+                        <div id="alert1"> hola</div>
+                        <br> 
+                   <a href="estudiante.html"> <input   type="button" value="Mostrar"  class="btn btn-primary"></a>
+                      </form>
+                     </div>
+                          </div>
+            
+            
+            
+            
+                        <br>
+                      
+                        </div>  
+                      
+                                 
+                       </div>        
+            
+              <div class="row">
+                   
+                      
+                        <div class="col-xs-5 col-xs-offset-7 " >
+                          
+                            <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Buscar por...">
+                              <span class="input-group-btn">
+                                <button class="btn btn-success" type="button">Buscar</button>
+                              </span>
+                            </div><!-- /input-group -->
+                          </div><!-- /.col-lg-6 -->
+                        </div><!-- /.row -->
+                        
+                      
+                        <br>
+                   
+                        <div class="row">
+                          
+                          <div class="fondo-calificacion">
+                          <div class="col-xs-4 col-xs-offset-1" >
+                            <div class="calificaciones">
+                           
+                          
+                            <form action="" >
+                            <ul>
+                              <li><label for="id"> Codigo Centro:</label>
+                          <input type="text" class="form-control" id="nombre" class="text" required></li>
+                                
+                              <li><label for="id"> Codigo Maestro:</label>
+                                <input type="password" class="form-control" id="nombre" placeholder="Proteja su codigo" required></li>
+                               
+                                <li><label for="id"> Id Estudiante:</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Codigo RNE" required></li>
+                              
+                                <li><label for="grado"> Asignatura</label></li>
+                                <select class="form-control" required>
+                                    <option Value="sangre1" aria-required="true"> Seleccione</option>
+                                 <option Value="sangre1"> Lengua Española</option>
+                                 <option Value="sangre_2"> Matematica</option>
+                                 <option Value="sangre3"> Ciencias Sociales</option>
+                                 <option Value="sangre3"> Ciencias Naturales</option>
+                                 <option Value="sangre3"> Lenguas Extrangeras(Ingles)</option>
+                                 <option Value="sangre3"> Lenguas Extrangeras(Frances)</option>
+                                 <option Value="sangre3"> Educacion Fisica</option>
+                                 <option Value="sangre3"> Formacion Humana</option>
+                                 <option Value="sangre3"> Educacion Artistica</option>
+                                 <option Value="sangre3"> Informatica</option>
+                                 <option Value="sangre3"> Educacion Moral y Civica </option>
+                                 <option Value="sangre3"> Salidas</option>
+            
+                                </select>
+                              
+                                
+                              
+            
+                                <li><label for="id"> Calificacion:</label>
+                                    <input type="text" class="form-control" id="nombre"  required></li>
+                                  
+                                    <li><label for="grado"> Prueba</label></li>
+                                <select class="form-control">
+                                 <option Value="sangre1"> Final</option>
+                                 <option Value="sangre_2"> Completivo</option>
+                                 <option Value="sangre3"> Extraordinario</option>
+                                 <option Value="sangre3"> Pendiente 1</option>
+                                 <option Value="sangre3"> Pendiente 2</option>
+                    </select>
+                    
+                    <li><label for="grado"> Condicion</label></li>
+                    <select class="form-control" required>
+                        <option Value="sangre1" aria-required="true"> Seleccione</option>
+                     <option Value="sangre1"> Liberada</option>
+                     <option Value="sangre_2"> Reprobada</option>
+                 
+            
+                    </select>
+                  
+                     
+                    <br>
+                    <div class="botones">
+                      <input type="submit" value="Calificar" class="btn btn-success" class="calificar">
+                      <input type="submit" value="Modificar" class="btn btn-primary" class="calificar">
+                      <input type="reset" value="Limpiar" class="btn btn-danger" class="limpiar"><br>
+                     </div>
+                    
+                    </div>
+                  </div>
+                  
+                
+                
+                    <div class="col-xs-5 col-xs-offset-1">
+                      
+                        <img src="img/estudiante.jpg" alt="" class="imgEstudiante">
+                     
+                    </div>
+                    <br>
+                 
+                 
+                  </div>
+                
+                  </div>
+                   <br>
+                   
+             
+                  
+              </form>
+              <div class="row">
+              <div class="col-xs-9">
+                <div class="list-group">
+                  
+                  <a href="Registro.html" target="_blank" class="list-group-item active">
+               Sugerencias e inquietudes
+                  </a>
+                  <a href="#" class="list-group-item">Entrar como administrador</a>
+                  <a href="#" class="list-group-item">Departamento de orientacion</a>
+                  <a href="#" class="list-group-item">Modificar calificiones</a>
+                  <a href="#" class="list-group-item">Ver Sugerencias de estudiante</a>
+                </div>
+              </div>
+            </div>
+            
+            
+              <div class="list-group" >
+                <a href="#" class="item active" style="background-color: rgb(3, 139, 139);">
+                  <h4 class="">Panel de Comentarios</h4>
+                  <div class="Recomendaciones">
+            
+             
+                    <form action="Mostrar" method="POST" class="" onclick="return Validar();">
+              <div class="Recomendaciones">
+                    <textarea name="" id="comentario" cols="47" rows="5" class="comentario" placeholder="Recomendaciones" onblur="javascript:Validar();" > </textarea><br><br>
+             
+                    <input type="button" value="Enviar Comentario" class="btn btn-success" class="Comentar">
+                    <div id="alert2"> hola</div>  
+                   </div>
+                   </form>
+                   
+                  <p class="list-group-item-text">Las recomendaciones seran enviadas al registro de calificacioes</p>
+                </a>
+              </div>
+              <br>
+            
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="fotter">
+                  
+            
+                 <center>Diseño Web con JavaScrip, Html y Css. Esta aplicacion aun esta en modo de prueba.</center> 
+            
+                </div>
+              </div>
+            </div>
+            <br><br>
+            
+     <!-- Single button -->
+
+     <script src="bootstrap3/js/bootstrap.min.js"></script>
+     <script src="bootstrap3/js/jquery.js"></script>
+     <script src="bootstrap3/js/javascript.js"></script>
+     <script type="text/javascript">
+ 
+     function Validar(){
+       var comentario=document.getElementById('comentario').value;
+       var codigo=document.getElementById('codigo').value;
+       
+        if(comentario==""){
+          $('#alert2').html('No puedes enviar si el campo no tiene texto').slideDown(500);
+          $('#comentario').focus();
+          return false;
+        }
+        else {
+         $('#alert2').html('').slideUp(300);
+ 
+        }
+        if(codigo==""){
+         $('#alert1').html('Debes ingresar un codigo administrativo').slideDown(500);
+         $('#codigo').focus();
+         return false;
+       }
+       else {
+        $('#alert1').html('').slideUp(300);
+
+       }
+        }
+          
+          
+          </script>
+</body>
+</html>
+     

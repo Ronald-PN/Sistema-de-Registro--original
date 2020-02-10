@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding: 0;
+    border: none;
+
+} 
+.gobierno{
+    
+  margin-left: 40px;
+    transition: all 0.75s;
+  
+} 
+.escudo img{
+    
+
+    margin-top: -20px;
+    margin-left: 70px;
+    transition: all 1.40s;
+} 
+
+.escudo:hover{
+    
+    transform: scale(1.08);
+  
+
+} 
+.gobierno h4{
+   
+   justify-items: center;
+    padding-top: 5px;
+    font-size: 25px;
+    color:red; 
+
+}
+.gobierno b{
+    color:blue;
+    font-size: 25px;
+    transition: all 0.75s;
+
+}  
+.gobierno:hover{
+    transform: scale(1.08);
+
+} 
+
+
+
+
+.texto b{
+    color: rgb(168, 4, 4);
+   
+ }
+ 
+ .minerd:hover{
+     
+     transform: scale(1.08);
+     background-color: green;
+ }
+ .minerd{
+     
+     height: 100px;
+     width: 350px;
+ margin-top: -5px;
+ margin-left: 70px;
+ transition: all 0.75s;
+   
+ }
+ .rne{
+    margin-left: 50px;
+   
+   
+}
+.lupa{
+    width: 40px;
+    height: 40px; 
+    transition: all 0.75s; 
+    margin-left: 5px;
+   
+ }
+ .descargar{
+     margin-left: 730px;
+     margin-top: -25px;
+     position: absolute;
+     font-size: 18px;
+     color: limegreen;
+ }
+
+
+ .lupa:hover{
+     transform: scale(1.18);
+      
+  }
+
+ strong{
+     font-size: 20px;
+     margin-left: -280px;
+   
+    
+}
+
+.iconCalificacion{
+    margin-left: 100px;
+    margin-top: -30px;
+    background-color: transparent;
+}
+
+.espacio-celda{
+    color: white;
+    background-color: blue;
+    font-size: 14px;
+    padding:10px;
+    
+ }
+ .liceo{
+     background-color: rgb(31, 197, 53);
+ }
+ .progress{
+     display:none;
+
+}
+.descargando{
+    display:none;
+    color: blue;
+    font-size: 15px;
+
+}
+#btn-descargar{
+    display:none;
+    
+}
+
+@media (max-width:1400px){
+    #btn-descargar:checked~ .progress{
+        display: block;
+        } 
+        #btn-descargar:checked~ .descargando{
+        display: block;
+        } 
+   
+   
+         #btn-descargar:checked~ .boton-detener{
+           display: block;
+                   } 
+            #btn-detener:checked~ .progress{
+           display: none;
+           } 
+           #btn-detener:checked~ .descargando{
+            display: none;
+            } 
+           #btn-detener:checked~ .boton-detener{
+           display: none;
+          
+               }  
+    }
+
+    @media (max-width:500px){
+        .minerd{
+            margin-left: -230px;
+            margin-top: 15px;
+            
+        }
+        .rne{
+            margin-left: 10px;
+        }
+        .escudo img{
+            display:none;
+        }
+        
+        
+         .gobierno{
+    
+            display:none;
+            
+          } 
+          .boton-descargar{
+            margin-left:0px;
+                font-size: 17px;
+                color: white;
+                background-color: blue;
+                cursor: pointer;
+                padding: 6px;
+                border-radius: 10px;
+                transition: all 0.75s;
+            }
+            
+        }
+   
+    @media (max-width:700px){
+        #btn-descargar:checked~ .boton-detener{
+            display: none;
+           
+                } 
+            }
+
+
+            
+    .boton-descargar:hover{
+        background-color: rgb(20, 194, 43);
+        color: black;
+        
+    }
+    .boton-detener{
+        color: black;
+        display: none;
+        cursor: pointer;
+        padding: 7px;
+        border-radius: 7px;
+        background-color: rgb(187, 46, 21);
+        color:white;
+        width: 11%;
+       
+        }
+        #btn-detener{
+            
+            display: none;
+           
+            }
+        .boton-detener:hover{
+           background-color: rgb(255, 38, 0);
+            }
+
+    b{
+        font-size: 18px;
+        color: rgb(17, 175, 17);
+    }
+h5{
+        color: red;
+    }
+    .footer{
+      background-color: black;
+      padding: 15px;
+      color: white;
+    }
+
+
+

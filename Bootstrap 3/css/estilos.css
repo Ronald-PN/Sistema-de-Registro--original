@@ -1,0 +1,904 @@
+ *{
+    margin:0;
+    padding: 0;
+    border: none;
+  
+
+} 
+.gobierno{
+    
+  
+    transition: all 0.75s;
+  
+} 
+.escudo img{
+    
+  margin-top: -15px;
+    height: 110px;
+    width: 110px;
+    margin-left: 100px;
+    transition: all 1.40s;
+} 
+
+.escudo:hover{
+    
+    transform: scale(1.08);
+  
+
+} 
+.gobierno h4{
+   
+   justify-items: center;
+    padding-top: 40px;
+    font-size: 30px;
+    color:red; 
+
+} 
+.gobierno:hover{
+    transform: scale(1.08);
+
+} 
+
+
+
+.gobierno b{
+    color:blue;
+    font-size: 30px;
+    transition: all 0.75s;
+
+} 
+
+
+
+
+.minerd{
+    background-color: rgb(32, 91, 219);
+  height: 131px;;
+  margin-left: 10px;
+  
+
+}
+.minerd img{
+    width:190px;
+    height: 90px;
+    margin-top: 17px;
+    margin-left: 25px;
+    transition: all 0.75s;
+  
+}
+.minerd img:hover{
+    transform: scale(1.08);
+   
+  
+}
+
+
+
+.texto {
+    background-color: rgb(40, 101, 233);
+  padding-top: 100px; 
+  color: #fff;
+  height: 130px;;
+  margin-top: 2px;
+
+
+}
+.texto> h4{
+    margin-top: -40px;
+    margin-left: 170px;
+    font-size: 22px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.texto b{
+   color: rgb(168, 4, 4);
+  
+}
+.raya1{
+    border: 6px solid rgb(201, 200, 200);
+    width: 120%;
+}
+.raya2{
+    border: 10px solid rgb(17, 190, 17);
+
+
+    
+}
+.raya3{
+    border: 8px solid rgb(115, 19, 194);
+    margin-left: 30px;  
+}
+.raya4{
+    border: 8px solid rgb(95, 103, 211);
+    margin-left: 30px;
+    width: 48%;
+    background-color: rgb(95, 103, 211); ;
+    font-size: 18px;
+    color:white;
+    position: absolute;
+    margin-top: -70px;   
+    
+}
+/* .raya5{
+    border: 10px solid rgb(6, 173, 48);
+    width: 42%;
+    margin-left: 750px;
+    margin-top: 510px;
+    position: absolute;
+     
+} */
+.raya6{
+    border: 10px solid rgb(6, 120, 173);
+    width: 96%;
+    margin-left: 30px;
+   
+    
+     
+}
+
+
+
+.RDigital:hover{
+    
+    transform: scale(1.08);
+    background-color: green;
+}
+.RDigital{
+    
+    height: 100px;;
+    width: 250px;
+margin-top: 20px;
+margin-left: -70px;
+transition: all 0.75s;
+
+    
+}
+
+.adolescente{
+    width: 230px;
+    height: 150px;
+    
+   
+}
+
+.menu-princ {
+   display: flex;
+   list-style: none;
+
+}
+
+
+.menu-princ  li a {
+    color:black;
+ 
+    text-decoration: none;
+    
+}
+
+.menu-princ > li {
+    color:black;
+ 
+    text-decoration: none;
+    
+}
+
+header{
+    width: 86%;
+ margin-left: 10px;
+    height: 45px;
+ 
+}
+
+ h3{
+    color: rgb(12, 12, 12);
+    display: flex;
+ margin-left: 350px;
+
+}
+#btn-menu{
+    display:none;
+}
+
+
+.boton-menu{
+    display: none;
+    padding: 10px;
+    width: 53px;
+    height: 44px;
+    border-right: 1px solid white;
+    padding-top: 1px;
+   
+ 
+}
+header label:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.menu ul{
+    margin-left: 0px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+   
+
+}
+
+
+
+.menu li a{
+    padding: 15px 20px;
+    display: block;
+   
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+.menu ul li ul{
+    width: 130px;
+
+}
+.rne{
+    margin-left: 950px;
+    margin-top: -70px;
+}
+
+
+.publicidad{
+    color: green;
+    font-size: 35px;
+    display: flex;
+    margin-left: 290px;
+    margin-top: -52px;
+   
+    border: none;
+   
+}
+.video{
+    margin-left: 30px;
+    margin-top: -103px;
+    width: 650px;
+}
+.contenidos{
+    
+    color: rgb(23, 126, 57);
+    margin-top: -120px;
+    margin-left: 120px;
+    font-size: 20px;
+    
+}
+
+
+.menu ul li ul li a{
+  font-size:13.5px;
+  
+}
+.menu ul li ul li {
+    background-color: rgb(26, 150, 123);
+    
+  }
+  .menu ul li ul li :hover {
+    background-color: rgba(16, 110, 187, 0.787)
+    
+  }
+.menu li:hover{
+    background-color: rgba(17, 160, 41, 0.972) ;
+}
+@media (max-width:768px){
+    header label{
+        display:block;
+       
+    }
+    .autentificacion  label b{
+        display: none;
+        }
+    .publicidad{
+       
+        font-size: 20px;
+        margin-left: 130px;
+        
+    }
+  
+    
+  
+    .video{
+        margin-left: 0px;
+
+       
+    }
+    .contenidos{
+    
+        
+        margin-left: 60px;
+        
+    }
+    .boton-menu{
+        display:block;
+       
+     
+    }
+.texto > h4{
+        display:none;
+    }
+    .menu{
+        position: absolute;
+        background-color: #4E94AB;
+        width: 75%;
+        margin-left: -85%;
+        transition: all 0.5s; 
+        
+    }
+    header{
+        width: 100%;
+        
+        background-color: rgb(7, 7, 7);
+       
+       
+     
+    }
+    .menu ul{
+        flex-direction: column;
+       
+    }
+    
+   
+    .menu li{
+        border-top: 1px solid white;
+    }
+    #btn-menu:checked~ .menu{
+        margin: 0px;
+    }
+    .menu li ul li{
+        position: relative;
+
+    }
+    .menu li ul li {
+      left: 230px;
+        top: -49px;
+    }
+   
+    .RDigital {
+       display: none;
+        
+    }
+    .gobierno h4{
+   
+        justify-items: center;
+         padding-top: 105px;
+         font-size: 16px;
+         color:red; 
+         
+     
+     } 
+     .minerd{
+       
+      margin-left: 40px;;
+      background-color: white;
+     
+    }
+    
+.gobierno b{
+    color:blue;
+    font-size: 20px;
+    transition: all 0.75s;
+    
+} 
+.gobierno{
+    margin-left: -50px;
+    
+} 
+
+
+
+    
+}
+@media (max-width:500px){
+    .texto{
+        display:none;
+        
+    }
+    .portafolio2{
+        display:none;
+    }
+    
+   
+   
+    .portafolio img{
+        height: 200px;
+        margin: auto;
+        width: 100%;
+        margin-top: -42px; 
+    }
+    
+    
+    .portafolio-item{
+      margin-left:-30px;
+      margin-top: -75px; 
+     
+    }
+    .dumblai{
+        margin-top: -75px; 
+    }
+    .raya4{
+        display:none;
+    }
+    .mas-video{
+  display:none;
+        
+    }
+    .list-group{
+        margin-left:-5px;
+    }
+    .redes{
+        width: 340px;
+        height: 340px;
+        margin-left:-20px;
+    } 
+   .autentificacion img{
+        margin-top: 60px;
+       position: absolute;
+       margin-left: 240px; 
+       
+   }
+   .raya6{
+    border: 10px solid rgb(6, 120, 173);
+    width: 195%;
+    margin-left: 10px;  
+}
+.raya3{
+    border: 8px solid rgb(115, 19, 194);
+    width: 195%;
+    margin-left: 10px; 
+}
+.btn-puedeIntersar{
+    display:noneñ
+   
+}
+
+  
+   }
+
+    
+
+    @media (max-width:868px){
+       
+        .autentificacion  label b{
+            display: none;
+            }
+        }
+    
+    
+    
+    @media (max-width:1400px){
+       
+            
+            .sesion{
+                width: 100%;
+    margin-left: -1400px;
+    transition: all 0.5s; 
+    
+            }
+            #btn-login:checked~ .sesion{
+                margin-left: 73px;
+            }
+         }
+            
+            
+
+.menu > li{
+    float: left;
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 120px;
+    
+}
+.menu li:hover>ul{
+    display: block;
+}
+
+.menu li a{
+    background-color: rgba(3, 29, 44, 0.541);
+    
+
+}
+.menu li a:hover{
+    background-color: rgba(231, 9, 9, 0.979);
+}
+  .menu li ul li {
+        right: -377px;
+        top: -49px;
+    }
+
+    img{
+        width: 100%;
+    }
+    .portafolio{
+        max-width: 600px;
+        margin: auto;
+        width: 180%;
+        margin-top: -42px;
+        
+       
+    }
+    .portafolio-container{
+        display: flex;
+      justify-content: stretch;
+     
+  
+      margin-left:30px;
+     
+    }
+   .lupa{
+       width: 40px;
+       height: 40px; 
+       transition: all 0.75s; 
+       margin-left: 5px;
+      
+    }
+   
+
+    .lupa:hover{
+        transform: scale(1.18);
+         
+     }
+
+    .portafolio-item{
+        
+        position: relative;
+        overflow: hidden;
+     width:100%;
+   
+    
+    }
+    .portafolio-img{
+        transition: all 1.40s;
+    }
+    .portafolio-item > img{
+        margin-top: 40px;
+        
+    }
+   
+    .portafolio-text{
+        position: absolute;
+        bottom: 0;
+       
+        background-color: rgba(0,0,0,0.7);
+        color: #fff;
+        transform:  translateY(100%);
+        transition:  all 0.5s ease-out;
+       
+        
+    }
+    .portafolio-text p{
+       text-align: justify;
+        
+    }
+    .portafolio-item:hover .portafolio-text{
+        text-align: justify;
+        transform:  translateY(0%);
+    
+     }
+     .portafolio-item:hover .portafolio-img{
+         transform: scale(1.25);
+     }
+    a:hover{
+        transform: scale(1.08);
+      
+    }
+    a{
+        transition: all 0.75s;
+    }
+    p:hover{
+        transform: scale(1.10);
+        color:rgb(72, 223, 72);
+    }
+    
+    h5:hover{
+       
+        color:rgb(4, 4, 255);
+        transition: all 0.95s;
+        transform: scale(0.95);
+        background-color: black; 
+    }
+
+    .mas-video{
+ width: 500px;
+ margin-left: 100px;
+    
+    }
+    p{
+        transition: all 0.55s; 
+    }
+
+    .dumblai{
+        margin-left: 30px;
+    }
+.redes{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 210px;
+    margin-left: 10px;
+
+}
+    
+    .facebook{
+        transition: all 0.75s;
+        
+    }
+    .facebook:hover{
+        transform: scale(1.08);
+      
+    }
+    .whatsApp{
+        transition: all 0.75s;
+        
+    }
+    .whatsApp:hover{
+        transform: scale(1.08);
+      
+    }
+    .twitter{
+        transition: all 0.75s;
+        
+    }
+    .twitter:hover{
+        transform: scale(1.08);
+      
+    }
+    .telefono{
+        transition: all 0.75s;
+        
+    }
+  .telefono:hover{
+        transform: scale(1.08);
+      
+    }
+    .instagram{
+        transition: all 0.75s;
+        
+    }
+    .instagram:hover{
+        transform: scale(1.08);
+      
+    }
+    .youTube{
+        transition: all 0.75s;
+        
+    }
+    .youTube:hover{
+        transform: scale(1.08);
+      
+    }
+    .btn-puedeInteresar{
+        width: 35%;
+        margin-left: 20px;
+    }
+  
+    
+          .text{
+             
+           border-bottom: 2px solid black;
+            
+              }
+              
+.menu ul li ul label{
+   color: black;
+}
+.portafolio2{
+    margin-top: -30px;
+}
+   .sesion{
+    background-color:white;
+    border: 15px solid black;
+    height: 380px;
+    background-color: rgba(7, 7, 7, 0.808);
+    border-radius: 10px;
+    width: 74%;
+    margin-top: 0px;
+
+      }
+     
+      .sesion img:hover{
+        transform: scale(0.90);
+        cursor: pointer;
+        border: 2px solid rgba(255, 255, 255, 0.459);
+       
+    }
+      .prueba{
+          background-color: black;
+      }
+      .fondoo{
+        background-color: black;
+        background-repeat: no-repeat;
+       
+          
+      }
+     
+
+.sesion ul li{
+    list-style: none;
+}
+.sesion label{
+    color: rgb(9, 75, 255);
+    font-size: 18px;
+}
+
+.autentificacion:hover{
+    cursor: pointer;
+    color: rgb(5, 235, 24);
+    
+    
+}
+
+.autentificacion{
+ 
+    font-size: 17px;
+margin-top: 50px;
+    color: white;  
+    margin-left: 20px;
+    background-color:rgba(0, 0, 0, 0.726);
+    padding-left: 150px;
+    width: 84%;
+    border-radius: 15px;
+    border-left: 85px solid  rgb(5, 163, 13);
+    border-right: 85px solid  rgb(5, 163, 13);
+    border-bottom: 15px solid  ;
+    border-bottom: 15px solid  rgb(61, 20, 243);
+    
+}
+.autentificacion img{
+ 
+    width: 90px;
+    height: 90px;
+    transition: all 0.75s;
+    margin-left: -120px;
+    
+}
+#btn-login{
+    display:none;
+}
+.color-login{
+    color: rgb(31, 255, 10);
+    margin-left: 130px;
+    font-size: 36px;
+    transition: all 0.75s;
+}
+.color-login:hover{
+    transform: scale(1.28);
+    
+}
+.autentificacion img:hover{
+    transform: scale(0.90);
+    cursor: pointer;
+    border: 2px solid white;
+  
+}
+#Login:hover{
+    transform: scale(1.28);
+    cursor: pointer;
+  
+}
+#Login{
+    transition: all 0.75s;
+  
+}
+#mostrar{
+    color:red;
+}
+.sesion li{
+   text-decoration: none;
+   
+
+}
+.autentificacion > p{
+    display:none;
+}
+#alert{
+    width: 300px;
+    padding:5px;
+  font-size: 18px;
+    color: rgb(255, 1, 1);
+    display:none;
+}
+
+
+
+.slider{
+    position: absolute;
+       height:690px ;
+     
+       width:570px;
+       margin-left:750px;
+      margin-top:100px;
+       overflow:hidden;
+       color:black;
+       
+       }
+       
+       .slider ul{
+       display:flex;
+       padding:0;
+       width:500%;
+       animation: cambio 20s infinite alternate ;
+       
+       }
+       .slider li{
+       width:160%;
+       list-style:none;
+       
+       }
+       .slider img{
+       width:100%;
+       
+       }
+       @keyframes cambio{
+      /* 0% {margin-left:0;}
+       10% {margin-left:0;}
+       
+       25% {margin-left:-100%;}
+       45% {margin-left:-100%;}
+       
+       50% {margin-left:-200%;}
+       70% {margin-left:-200%;}
+       
+       75% {margin-left:-300%;}
+       100% {margin-left:-300%;}*/
+       
+       0% {margin-left:0;}
+       15% {margin-left:0;}
+       
+       20% {margin-left:-100%;}
+       40% {margin-left:-100%;}
+       
+       45% {margin-left:-200%;}
+       60% {margin-left:-200%;}
+       
+       65% {margin-left:-300%;}
+       80% {margin-left:-300%;}
+   
+       85% {margin-left:-400%;}
+       100% {margin-left:-400%;}
+   
+       }
+       .arriba{
+        list-style: none;
+      background-color: blue;
+   margin-left: 700px;
+      padding:7px;
+      color: white;
+      margin-top: -70px;
+      position: absolute;
+      width: 47%;
+      font-size: 20px;
+    }
+    li a {
+        list-style: none;
+        text-decoration: none;
+    }
+    .arriba :hover{
+        color:white;
+   
+       
+     
+    }
+ 
+       .fotter{
+           background-color: black;
+           width: 100%;
+       }
+    
+    
+
+
+ 
+    
+ 
+ 
+
+
+
